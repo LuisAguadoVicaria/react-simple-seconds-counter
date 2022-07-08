@@ -8,7 +8,7 @@ const Counter = props => {
 	const enumb = numbers.map((number, i) => span(number, i))
 	
   return (
-  <div className="shadow-lg container-fluid p-5 col-9 fs-1 bg-dark bg-gradient rounded-5">
+  <div className="m-auto shadow-lg container-fluid p-5 col-9 fs-1 bg-dark bg-gradient rounded-5">
 		<div className="row justify-content-evenly">
 			{span(<i className="bi bi-clock"></i>)}
 			{enumb}
